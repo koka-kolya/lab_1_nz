@@ -21,6 +21,10 @@ setup(
     entry_points={
         'console_scripts': [
             'time_printer = super_koka_study_pkg.time_printer:main',   # ← добавляем эту строку
+            'talker = super_koka_study_pkg.talker:main',
+            'listener = super_koka_study_pkg.listener:main',
+            'even_talker = super_koka_study_pkg.even_number_publisher:main',
+            'overflow_listener = super_koka_study_pkg.overflow_listener:main'
         ],
     },
 )

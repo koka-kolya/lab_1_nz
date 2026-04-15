@@ -1,0 +1,4 @@
+[console_scripts]
+listener = super_koka_study_pkg.listener:main
+talker = super_koka_study_pkg.talker:main
+time_printer = super_koka_study_pkg.time_printer:main
