@@ -13,7 +13,7 @@ setup(
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
 	    (os.path.join('share', package_name, 'launch'), 
-         glob('launch/*.py')),
+         glob('launch/*.py'))
     ],
     install_requires=['setuptools'],
     zip_safe=True,
@@ -28,7 +28,9 @@ setup(
             'talker = super_koka_study_pkg.talker:main',
             'listener = super_koka_study_pkg.listener:main',
             'even_talker = super_koka_study_pkg.even_number_publisher:main',
-            'overflow_listener = super_koka_study_pkg.overflow_listener:main'
+            'overflow_listener = super_koka_study_pkg.overflow_listener:main',
+            'even_talker_params = super_koka_study_pkg.even_number_publisher_params:main',
+            'overflow_listener_params = super_koka_study_pkg.overflow_listener_params:main'
         ],
     },
 )
