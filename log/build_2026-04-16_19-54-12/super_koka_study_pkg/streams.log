@@ -1,0 +1,26 @@
+[0.751s] Invoking command in '/home/koka-kolya/ros2_ws/src/super_koka_study_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/koka-kolya/ros2_ws/build/super_koka_study_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/koka-kolya/ros2_ws/install/super_koka_study_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/super_koka_study_pkg build --build-base /home/koka-kolya/ros2_ws/build/super_koka_study_pkg/build install --record /home/koka-kolya/ros2_ws/build/super_koka_study_pkg/install.log --single-version-externally-managed install_data
+[0.945s] running egg_info
+[0.957s] writing ../../build/super_koka_study_pkg/super_koka_study_pkg.egg-info/PKG-INFO
+[0.958s] writing dependency_links to ../../build/super_koka_study_pkg/super_koka_study_pkg.egg-info/dependency_links.txt
+[0.959s] writing entry points to ../../build/super_koka_study_pkg/super_koka_study_pkg.egg-info/entry_points.txt
+[0.959s] writing requirements to ../../build/super_koka_study_pkg/super_koka_study_pkg.egg-info/requires.txt
+[0.959s] writing top-level names to ../../build/super_koka_study_pkg/super_koka_study_pkg.egg-info/top_level.txt
+[0.986s] reading manifest file '../../build/super_koka_study_pkg/super_koka_study_pkg.egg-info/SOURCES.txt'
+[0.987s] writing manifest file '../../build/super_koka_study_pkg/super_koka_study_pkg.egg-info/SOURCES.txt'
+[0.987s] running build
+[0.987s] running build_py
+[0.988s] running install
+[0.997s] running install_lib
+[1.013s] running install_data
+[1.014s] creating /home/koka-kolya/ros2_ws/install/super_koka_study_pkg/share/super_koka_study_pkg/launch
+[1.015s] running install_egg_info
+[1.028s] removing '/home/koka-kolya/ros2_ws/install/super_koka_study_pkg/lib/python3.12/site-packages/super_koka_study_pkg-0.0.0-py3.12.egg-info' (and everything under it)
+[1.028s] Copying ../../build/super_koka_study_pkg/super_koka_study_pkg.egg-info to /home/koka-kolya/ros2_ws/install/super_koka_study_pkg/lib/python3.12/site-packages/super_koka_study_pkg-0.0.0-py3.12.egg-info
+[1.029s] running install_scripts
+[1.131s] Installing even_talker script to /home/koka-kolya/ros2_ws/install/super_koka_study_pkg/lib/super_koka_study_pkg
+[1.132s] Installing listener script to /home/koka-kolya/ros2_ws/install/super_koka_study_pkg/lib/super_koka_study_pkg
+[1.132s] Installing overflow_listener script to /home/koka-kolya/ros2_ws/install/super_koka_study_pkg/lib/super_koka_study_pkg
+[1.132s] Installing talker script to /home/koka-kolya/ros2_ws/install/super_koka_study_pkg/lib/super_koka_study_pkg
+[1.132s] Installing time_printer script to /home/koka-kolya/ros2_ws/install/super_koka_study_pkg/lib/super_koka_study_pkg
+[1.133s] writing list of installed files to '/home/koka-kolya/ros2_ws/build/super_koka_study_pkg/install.log'
+[1.159s] Invoked command in '/home/koka-kolya/ros2_ws/src/super_koka_study_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/koka-kolya/ros2_ws/build/super_koka_study_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/koka-kolya/ros2_ws/install/super_koka_study_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/super_koka_study_pkg build --build-base /home/koka-kolya/ros2_ws/build/super_koka_study_pkg/build install --record /home/koka-kolya/ros2_ws/build/super_koka_study_pkg/install.log --single-version-externally-managed install_data
