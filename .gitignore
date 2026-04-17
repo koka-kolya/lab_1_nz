@@ -1,0 +1,21 @@
+# ROS2 build artefacts
+build/
+install/
+log/
+__pycache__/
+*.pyc
+*.pyo
+*.so
+
+#Colcon
+colcon_*
+*.env
+
+#IDE
+.vscode/
+.idea/
+*.swp
+
+#Python
+*.egg-info/
+dist/
