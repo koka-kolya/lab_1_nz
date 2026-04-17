@@ -1,0 +1,40 @@
+[1.608s] Invoking command in '/home/koka-kolya/ros2_ws/src/pkg_lab1_nz': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/koka-kolya/ros2_ws/build/pkg_lab1_nz/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/koka-kolya/ros2_ws/install/pkg_lab1_nz/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pkg_lab1_nz build --build-base /home/koka-kolya/ros2_ws/build/pkg_lab1_nz/build install --record /home/koka-kolya/ros2_ws/build/pkg_lab1_nz/install.log --single-version-externally-managed install_data
+[1.770s] /usr/lib/python3/dist-packages/setuptools/_distutils/dist.py:265: UserWarning: Unknown distribution option: 'test_require'
+[1.770s]   warnings.warn(msg)
+[1.856s] running egg_info
+[1.856s] creating ../../build/pkg_lab1_nz/pkg_lab1_nz.egg-info
+[1.870s] writing ../../build/pkg_lab1_nz/pkg_lab1_nz.egg-info/PKG-INFO
+[1.870s] writing dependency_links to ../../build/pkg_lab1_nz/pkg_lab1_nz.egg-info/dependency_links.txt
+[1.870s] writing entry points to ../../build/pkg_lab1_nz/pkg_lab1_nz.egg-info/entry_points.txt
+[1.871s] writing requirements to ../../build/pkg_lab1_nz/pkg_lab1_nz.egg-info/requires.txt
+[1.872s] writing top-level names to ../../build/pkg_lab1_nz/pkg_lab1_nz.egg-info/top_level.txt
+[1.872s] writing manifest file '../../build/pkg_lab1_nz/pkg_lab1_nz.egg-info/SOURCES.txt'
+[1.900s] reading manifest file '../../build/pkg_lab1_nz/pkg_lab1_nz.egg-info/SOURCES.txt'
+[1.902s] adding license file 'LICENSE'
+[1.902s] writing manifest file '../../build/pkg_lab1_nz/pkg_lab1_nz.egg-info/SOURCES.txt'
+[1.902s] running build
+[1.902s] running build_py
+[1.902s] creating /home/koka-kolya/ros2_ws/build/pkg_lab1_nz/build
+[1.902s] creating /home/koka-kolya/ros2_ws/build/pkg_lab1_nz/build/lib
+[1.902s] creating /home/koka-kolya/ros2_ws/build/pkg_lab1_nz/build/lib/pkg_lab1_nz
+[1.903s] copying pkg_lab1_nz/ros2_ws.py -> /home/koka-kolya/ros2_ws/build/pkg_lab1_nz/build/lib/pkg_lab1_nz
+[1.903s] copying pkg_lab1_nz/__init__.py -> /home/koka-kolya/ros2_ws/build/pkg_lab1_nz/build/lib/pkg_lab1_nz
+[1.903s] running install
+[1.909s] running install_lib
+[1.923s] creating /home/koka-kolya/ros2_ws/install/pkg_lab1_nz/lib/python3.12/site-packages/pkg_lab1_nz
+[1.923s] copying /home/koka-kolya/ros2_ws/build/pkg_lab1_nz/build/lib/pkg_lab1_nz/ros2_ws.py -> /home/koka-kolya/ros2_ws/install/pkg_lab1_nz/lib/python3.12/site-packages/pkg_lab1_nz
+[1.923s] copying /home/koka-kolya/ros2_ws/build/pkg_lab1_nz/build/lib/pkg_lab1_nz/__init__.py -> /home/koka-kolya/ros2_ws/install/pkg_lab1_nz/lib/python3.12/site-packages/pkg_lab1_nz
+[1.924s] byte-compiling /home/koka-kolya/ros2_ws/install/pkg_lab1_nz/lib/python3.12/site-packages/pkg_lab1_nz/ros2_ws.py to ros2_ws.cpython-312.pyc
+[1.924s] byte-compiling /home/koka-kolya/ros2_ws/install/pkg_lab1_nz/lib/python3.12/site-packages/pkg_lab1_nz/__init__.py to __init__.cpython-312.pyc
+[1.925s] running install_data
+[1.925s] creating /home/koka-kolya/ros2_ws/install/pkg_lab1_nz/share/ament_index
+[1.925s] creating /home/koka-kolya/ros2_ws/install/pkg_lab1_nz/share/ament_index/resource_index
+[1.925s] creating /home/koka-kolya/ros2_ws/install/pkg_lab1_nz/share/ament_index/resource_index/packages
+[1.926s] copying resource/pkg_lab1_nz -> /home/koka-kolya/ros2_ws/install/pkg_lab1_nz/share/ament_index/resource_index/packages
+[1.926s] copying package.xml -> /home/koka-kolya/ros2_ws/install/pkg_lab1_nz/share/pkg_lab1_nz
+[1.926s] running install_egg_info
+[1.943s] Copying ../../build/pkg_lab1_nz/pkg_lab1_nz.egg-info to /home/koka-kolya/ros2_ws/install/pkg_lab1_nz/lib/python3.12/site-packages/pkg_lab1_nz-0.0.0-py3.12.egg-info
+[1.947s] running install_scripts
+[2.076s] Installing first_node script to /home/koka-kolya/ros2_ws/install/pkg_lab1_nz/lib/pkg_lab1_nz
+[2.077s] writing list of installed files to '/home/koka-kolya/ros2_ws/build/pkg_lab1_nz/install.log'
+[2.099s] Invoked command in '/home/koka-kolya/ros2_ws/src/pkg_lab1_nz' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/koka-kolya/ros2_ws/build/pkg_lab1_nz/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/koka-kolya/ros2_ws/install/pkg_lab1_nz/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pkg_lab1_nz build --build-base /home/koka-kolya/ros2_ws/build/pkg_lab1_nz/build install --record /home/koka-kolya/ros2_ws/build/pkg_lab1_nz/install.log --single-version-externally-managed install_data

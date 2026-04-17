@@ -1,0 +1,5 @@
+  File "/home/koka-kolya/ros2_ws/install/super_koka_study_pkg/lib/python3.12/site-packages/super_koka_study_pkg/overflow_listener.py", line 14
+    'overflow'
+    ^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+
