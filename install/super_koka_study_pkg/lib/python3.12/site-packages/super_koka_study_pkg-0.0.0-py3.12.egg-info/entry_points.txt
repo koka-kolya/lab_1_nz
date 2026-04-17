@@ -1,8 +1,0 @@
-[console_scripts]
-even_talker = super_koka_study_pkg.even_number_publisher:main
-even_talker_params = super_koka_study_pkg.even_number_publisher_params:main
-listener = super_koka_study_pkg.listener:main
-overflow_listener = super_koka_study_pkg.overflow_listener:main
-overflow_listener_params = super_koka_study_pkg.overflow_listener_params:main
-talker = super_koka_study_pkg.talker:main
-time_printer = super_koka_study_pkg.time_printer:main

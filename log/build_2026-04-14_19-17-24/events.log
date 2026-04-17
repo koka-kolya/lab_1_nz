@@ -1,4 +1,0 @@
-[0.000000] (-) TimerEvent: {}
-[0.000136] (-) JobUnselected: {'identifier': 'pkg_lab1_nz'}
-[0.000156] (-) JobUnselected: {'identifier': 'super_koka_study_pkg'}
-[0.001404] (-) EventReactorShutdown: {}

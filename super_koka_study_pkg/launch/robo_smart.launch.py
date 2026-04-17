@@ -1,46 +1,39 @@
 from launch import LaunchDescription
 from launch.actions import DeclareLaunchArgument
-from launch.substitutions import LaunchConfiguration
+from launch.substitutions import LaunchConfiguration, PythonExpression
 from launch_ros.actions import Node
 
 def generate_launch_description():
     
     # Declare arguments
-    freq_arg = DeclareLaunchArgument(
-        'publish_frequency',
-        default_value='8.0',
-        description='Publish frequency (Hz)'
-    )
 
-    threshold_arg = DeclareLaunchArgument(
-        'overflow_threshold',
-        default_value='80',
-        description='Overflow threshold'
-    )
-    
-    topic_arg = DeclareLaunchArgument(
-        'topic_name',
-        default_value='/even_numbers',
-        description='Topic for even numbers'
-    )
-    
-    ovf_topic_arg = DeclareLaunchArgument(
-        'ovf_topic_name',
-        default_value='/overflow',
-        description='Topic for overflow messages'
+    mode_arg = DeclareLaunchArgument(
+        'mode',
+        default_value='slow',
+        description='Select mode for run'
     )
 
     # Get current values
-    frequency = LaunchConfiguration('publish_frequency')
-    threshold = LaunchConfiguration('overflow_threshold')
-    topic_name = LaunchConfiguration('topic_name')
-    ovf_topic_name = LaunchConfiguration('ovf_topic_name')
+    mode = LaunchConfiguration('mode')
+
+    frequency = PythonExpression([
+        "20.0 if '", mode, "' == 'fast' else 5.0"
+    ])
+
+    threshold = PythonExpression([
+        "50 if '", mode, "' == 'fast' else 150"
+    ])
+
+    topic_name = PythonExpression([
+        "'/even_numbers_fast' if '", mode, "' == 'fast' else '/even_numbers_slow'"
+    ])
+
+    ovf_topic_name = PythonExpression([
+        "'/overflow_fast' if '", mode, "' == 'fast' else '/overflow_slow'"
+    ])
 
     return LaunchDescription([
-        freq_arg,
-        threshold_arg,
-        topic_arg,
-        ovf_topic_arg,
+        mode_arg,
 
         # Publisher node
         Node(
