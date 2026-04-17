@@ -30,7 +30,8 @@ setup(
             'even_talker = super_koka_study_pkg.even_number_publisher:main',
             'overflow_listener = super_koka_study_pkg.overflow_listener:main',
             'even_talker_params = super_koka_study_pkg.even_number_publisher_params:main',
-            'overflow_listener_params = super_koka_study_pkg.overflow_listener_params:main'
+            'overflow_listener_params = super_koka_study_pkg.overflow_listener_params:main',
+            'static_tf_broadcaster = super_koka_study_pkg.static_tf_broadcaster'
         ],
     },
 )
